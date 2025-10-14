@@ -4,39 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <link rel="stylesheet" href="./styles.css">
-    
     <main>
         <section>
-            <class class="form-container">
-                <h1>Welcome Back!</h1>
+            <div class="form-contaniner">
+                <H1>Welcome back</H1>
                 <p>Enter your Credentials to access your account</p>
-            
-            <form action="" method="post">
-                <fieldset>
-                    <label for="Email address">Email address</label>
-                    <input type="email" name="email" id="email">
-                </fieldset>
-                <fieldset>
+                <form action="" method="post">
+                    <fieldset>
+                    <label for="email">Email address</label>
+                    <input placeholder="Enter your email" type="email" name="email" id="email">
+                    </fieldset>
+                    <fieldset>
                     <div class="title-wrapper">
                         <label for="password">Password</label>
                         <a href="">forgot password</a>
                     </div>
-                    <input type="password" name="password" id="password">
-                </fieldset>
-                <fieldset>
-                    <input type="checkbox" name="remember" id="remember">
-                    <label for="">Remember for 30 days</label>
-                </fieldset>
-                <button type="submit">Login</button>
-            </form>
-            </class>
-            </section>
-        </div>
+                    <input placeholder="Enter your password" type="password" name="password" id="password">
+                    </fieldset>
+                    <fieldset class="checkbox">
+                        <input type="checkbox" name="remenber" id="remenber">
+                        <label for="remember">Remember for 30 days</label>
+                    </fieldset>
+                    <button type="submit">Login</button>
+                    
+                </form>
+                <div class="divider">
+                    <div class="line"></div>
+                    <p>Or</p>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <hr>
         </section>
-        <img src="../assets/images/chris-lee-70l1tDAI6rM-unsplash 1.png" alt="foto de uma planta costela-de-adao">
+        <img src="../assets/images/costela-de-adao.png" alt="foto de uma planta costela de adão">
     </main>
 </body>
 </html>
