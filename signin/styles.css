@@ -10,7 +10,6 @@ main {
 
 section {
     width:49.2%;
-
     display: flex;
     justify-content: center;
     flex-direction: column;
