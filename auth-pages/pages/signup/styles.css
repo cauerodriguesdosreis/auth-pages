@@ -1,4 +1,4 @@
-    @import url("../styles/global.css");
+    @import url("../../styles/global.css");
 
     main {
         display: flex;
@@ -142,7 +142,7 @@
     .sso-container button {
         height: 32px;
         gap: 10px;
-
+        padding: 4px 24px;
         border: 1px solid var(--border-gray);
         border-radius: 10px;
         display: flex;
