@@ -127,6 +127,7 @@ form button {
     align-items: center;
     gap: 23px;
     margin-top: 89px;
+    margin-bottom: 22px;
 }
 
  .sso-container button:hover {
